@@ -7,3 +7,6 @@ es_start:
 
 es_stop:
 	docker-compose -f docker-compose_es.yml stop
+
+es_stop:
+	docker-compose -f docker-compose_es.yml down --remove-orphans
